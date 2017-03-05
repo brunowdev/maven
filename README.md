@@ -4,7 +4,7 @@ Este repositório contém dicas e exemplos do Maven
 
 ## Tópicos
 
-* Versionamento
+* Publicação de Artefatos
   * [Incremento de Versões](https://blog.codecentric.de/en/2015/04/increment-versions-maven-build-helper-versions-plugin/)
   * [Definir Versão Manualmente](https://dzone.com/articles/why-i-never-use-maven-release)
 
