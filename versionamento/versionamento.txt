@@ -1,0 +1,10 @@
+Setar uma major version ou full version manualmente:
+
+mvn versions:set -DnewVersion=2.0-SNAPSHOT
+
+Aplicar o increment no final:
+
+mvn build-helper:parse-version versions:set -DnewVersion=${parsedVersion.majorVersion}.${parsedVersion.minorVersion}.${parsedVersion.nextIncrementalVersion}
+
+
+OBS: Na primeira vez, serão instalados os plugins. As demais execuções serão mais rápidas.
